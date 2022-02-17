@@ -1,8 +1,18 @@
 .grid{
     display: grid;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     margin-bottom: 50px;
+    h1{
+        color: #A525CC;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        color: rgb(90, 90, 90);
+        text-align: justify;
+        font-size: 15px;
+    }
 }
