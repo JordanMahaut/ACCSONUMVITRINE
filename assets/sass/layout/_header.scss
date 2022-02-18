@@ -35,8 +35,11 @@
 
 			h1 {
 				font-size: 3.25em;
-				color: purple;
 				font-weight: bold;
+				background:-webkit-linear-gradient(left, #ffb800 35%, #4db433 45%, #c20476 60%);
+				background-clip:text;
+				-webkit-background-clip:text;
+				color:transparent;
 			}
 
 			> * {
