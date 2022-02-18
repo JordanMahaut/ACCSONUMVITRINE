@@ -34,8 +34,11 @@
 		}
 
 	body {
-		background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+		
+		background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
 
+		
+		
 		// Stops initial animations until page loads.
 			&.is-preload {
 				*, *:before, *:after {
