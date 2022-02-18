@@ -15,6 +15,7 @@
 	header {
 		&.major {
 			margin-bottom: (_size(element-margin) * 1.5);
+			text-align: center;
 
 			h2 {
 				font-size: 2em;
@@ -26,6 +27,8 @@
 					height: 2px;
 					margin: (_size(element-margin) * 0.35) 0 (_size(element-margin) * 0.5) 0;
 					border-radius: 2px;
+					text-align: center;
+					margin-left: 44%;
 
 					section.special &, article.special & {
 						margin-left: auto;
