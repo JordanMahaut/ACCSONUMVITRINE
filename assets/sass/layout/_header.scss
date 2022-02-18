@@ -17,7 +17,8 @@
 		p {
 			font-size: 1.25em;
 			letter-spacing: _font(letter-spacing);
-			color: rgb(95, 95, 95);
+			color: black;
+			font-weight: bold
 		}
 
 		&.alt {
@@ -48,13 +49,9 @@
 				img {
 					display: block;
 					margin: 0 auto;
-<<<<<<< HEAD
 					width: 150px;
 					border-radius: 350px
 					
-=======
-					max-width: 75%;
->>>>>>> 79b8cbc32d180f0d57c8766a6671b6e97870afb9
 				}
 			}
 		}
