@@ -20,6 +20,15 @@
 			color: black;
 			font-weight: bold
 		}
+		.ac{
+			color: #ffb800;
+		}
+		.so{
+			color: #4db433;
+		}
+		.nu{
+			color: #c20476;
+		}
 
 		&.alt {
 			@include padding(6em, 5em, (1em, 0, 0, 0));
