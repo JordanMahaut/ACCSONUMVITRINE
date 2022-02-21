@@ -36,8 +36,6 @@
 			li {
 				width: calc(#{(100% / 2)} - #{_size(element-margin)});
 
-				&:nth-child(3) {
-					margin-top: (_size(element-margin) * 1.5);
 				}
 			}
 		}
@@ -57,4 +55,20 @@
 				}
 			}
 		}
+	
+.image{
+	width: 40%;
+}
+.metho{
+	width: 60%;
+}
+.ul{
+	li{
+		text-align: left;
+		font-size: 15px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-top: 0;
 	}
+}
