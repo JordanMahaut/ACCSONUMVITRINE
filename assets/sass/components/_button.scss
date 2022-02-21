@@ -68,14 +68,14 @@
 		.button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px _palette($p, border);
-			color: _palette($p, fg-bold) !important;
+			color: black !important;
 
 			&:hover {
-				background-color: _palette($p, border-bg);
+				background-color: black;
 			}
 
 			&:active {
-				background-color: _palette($p, border2-bg);
+				background-color: black;
 			}
 
 			&.icon {
@@ -86,7 +86,7 @@
 
 			&.primary {
 				background-color: _palette(accent);
-				color: _palette(invert, bg) !important;
+				color: black;
 				box-shadow: none;
 
 				&:hover {
