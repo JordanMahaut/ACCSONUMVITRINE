@@ -53,8 +53,8 @@
 			<ul>
 				<li><a href="#FN" class="active">Fracture numérique</a></li>
 				<li><a href="#APN">A propos de nous</a></li>
-				<li><a href="##">Retour d'expériences</a></li>
 				<li><a href="#INC">Ils nous font confiance</a></li>
+				<li><a href="#PDC">Paroles de clients</a></li>
 				<li><a href="#TH">Tarifs</a></li>
 				<li><a href="#footer">Contact</a></li>
 				<li><a href=""></a></li>
@@ -64,7 +64,7 @@
 		<!-- Main -->
 		<div id="main">
 
-			<!-- Introduction -->
+			<!-- Fracture numérique -->
 			<section id="FN" class="main">
 				<div class="spotlight">
 					<div class="content">
@@ -96,7 +96,7 @@
 				</div>
 			</section>
 
-			<!-- First Section -->
+			<!-- A propos de nous -->
 			<section id="APN" class="main special">
 				<header class="major">
 					<h2>A propos de nous</h2>
@@ -136,7 +136,7 @@
 
 			</section>
 
-			<!-- Second Section -->
+			<!-- Ils nous font confiance -->
 			<section id="INC" class="main special">
 				<header class="major">
 					<div class="slide-container">
@@ -158,6 +158,10 @@
 							<div class="slide-index">4 / 5</div>
 							<img class="slide-img" src="images/france_connect.png" />
 						</div>
+						<div class="custom-slider fade">
+							<div class="slide-index">5 / 5</div>
+							<img class="slide-img" id="class5" src="images/logo_maison_du_velo.jpg"/>
+						</div>
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>
 					</div>
@@ -167,10 +171,46 @@
 						<span class="dot" onclick="currentSlide(2)"></span>
 						<span class="dot" onclick="currentSlide(3)"></span>
 						<span class="dot" onclick="currentSlide(4)"></span>
+						<span class="dot" onclick="currentSlide(5)"></span>
 					</div>
 			</section>
 
-			<!-- Get Started -->
+			<!-- Paroles du clients -->
+                
+			<section id="PDC" class="main special">
+				<h2>Paroles du clients</h2>
+				<p>
+				  <strong>Brigitte L :</strong> J’en ai suivi des ateliers. Mais ils étaient trop scolaires. <br>
+				  Ce que j’aime dans tes ateliers, c’est qu’il y a beaucoup de mise en pratiques.
+				</p>
+				<p>
+				  <strong>Mme P</strong>, ne reçoit plus ses relevés de pension général. <br>
+				  Elle vient donc me voir afin que je l'accompagne sur le site AGIRC.fr. <br>
+				  Après avoir fait un diagnostique , je m’aperçoit qu'elle est très éloignée du numérique mais je suis tout de même heureuse quelle soit venue me voir afin de l'accompagner dans cette nouvelle aventure. <br>
+				  Elle ne voit pas l'utilité de la création d'un compte agirc (et tout ce qui va avec : remplir un formulaire, créer un mot de passe , créer une adresse mail)Mon accompagnement est plus social que numérique car il faut avant tout lui montrer l’intérêt du numérique dans son quotidien.
+				</p>
+				<p>
+				  <strong>Mr B</strong>, 77 ans, est bien équipé (smartphone, fibre, pc portable, imprimante) <br>
+				  Il souhaiterai se servir de façon optimal de tout son matériel. Il ne comprends pas ce langage. <br>
+				  Mon accompagnement lui permet d'appréhender au mieux son univers numérique, c'est pour cela que mes interventions se font à son domicile.
+				</p>
+				<p>
+				  <strong>Le jeune et le numérique :</strong> J'ai eu la chance d'animer un atelier numérique pour une vingtaine d'adolescents âgé de 11 à 17ans. <br>
+				  L'atelier consistait à créer un quiz interactif. (kahoot) <br>
+				  Plusieurs compétences ont pu être  développés comme la recherche internet pertinente sur un thème spécifique avec les réponses adéquates et photos permettant d'illustrer tout ça
+				</p>
+
+			  <p>
+				<strong>4 groupe de 5 volontaires</strong> du projet « Zéro chômeur de longue durée » pour la montée en compétences et l’appropriation des outils numériques : nous avons travaillés à l’utilisation d’une boite mail, à l’élaboration d’un questionnaire en ligne et de visuel de communications (gmail, google form et canva)
+			  </p>
+
+			  <p>
+				<strong>Mme F :</strong> s’est servis lors de ces études de la machine à écrire. Mais ne connaît pas du l’interface d’un poste informatique. Elle est en retraite et vie seule. Elle souhaite savoir se servir d’un ordinateur. Nous voyons donc une fois par semaine pour apprendre les bases (allumer et éteindre un ordinateur, se servir d’une souris, d’un clavier, utiliser un moteur de recherche...)
+			  </p>
+
+			  </section>
+
+			<!-- Tarifs -->
 			<section id="TH" class="main special">
 				<header class="major">
 					<h2>Tarifs</h2>
@@ -213,14 +253,14 @@
 				<form>
 					<div class="Info">
 						<label>Nom :</label>
-						<input type="text" placeholder="Depitre" required>
+						<input type="text" required>
 						<label>Prénom :</label>
-						<input type="text" placeholder="Jean-Kevin" required>
+						<input type="text" required>
 					</div>
 					<div class="Mail">
 						<label>Adresse mail :</label>
 						<input type="email" pattern=".+@globex\.com" size="30"
-							placeholder="JK.Depitre@Sainte-Vierge.com" required>
+							required>
 					</div>
 					<div class="Msg">
 						<label id="story">Message :</label>
